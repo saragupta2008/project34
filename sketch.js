@@ -26,7 +26,7 @@ pendulum3= new Pendulum(270,300,255);
 pendulum4= new Pendulum(330,300,255);
 pendulum5= new Pendulum(390,300,255);
 
-sling1= new Sling(pendulum1,{x:20,y:20});
+sling1= new Sling(pendulum1.body,{x:20,y:20});
 }
 
 
